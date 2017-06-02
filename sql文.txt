@@ -1,0 +1,5 @@
+create table person(id int primary key auto_increment,name varchar(30) not null,pass varchar(15) not null,time int not null)Engine=innodb
+insert into person(id,name,pass,time) values ('1','test','test','1')
+create table matching(id int primary key auto_increment,time int not null,p1id int ,p2id int,p3id int ,p4id int)
+insert into matching(id,time,p1id,p2id,p3id,p4id) values ('1','1','1','2','3','4')
+
